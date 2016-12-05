@@ -9,7 +9,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        SocketClient.uploadFile("ec2-35-165-25-225.us-west-2.compute.amazonaws.com", new File("C:\\Users\\Kolpa\\Desktop\\lodcfg.txt"), "testfile.txt");
-        //SocketClient.downloadFile("ec2-52-25-45-214.us-west-2.compute.amazonaws.com", "testfile.txt", "testdl.txt");
+        SocketClient.uploadFile("hostname", new File("C:\\Users\\Kolpa\\Desktop\\lodcfg.txt"), "testfile.txt");
+        //SocketClient.downloadFile("hostname", "testfile.txt", "testdl.txt");
     }
 }
